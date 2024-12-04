@@ -1,0 +1,17 @@
+To run this project, you need:
+
+Flask==2.2.3
+Flask-SQLAlchemy==3.0.3
+requests==2.31.0
+pytest==7.4.2
+pytest-mock==3.11.1
+python-dotenv==1.0.0
+
+Instead of installing libraries one by one, we can list all the required libraries in a file called requirements.txt. This file acts as a list of dependencies for the project. Then, with a single command:
+pip install -r requirements.txt
+
+We tell pip to look into the requirements.txt file and install all the listed libraries automatically. This approach is more efficient, especially for projects with multiple dependencies, and ensures all necessary libraries are installed with their specific versions.
+pip install flask flask-sqlalchemy python-dotenv requests
+
+
+
